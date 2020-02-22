@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mini Bank</title>
+    <style>
+     body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kotak{
+    background-color:whitesmoke;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 300px;
+    width: 500px;
+    border: 1px solid #999;
+}
+    </style>
+
+</head>
+<body>
+
+    <center>
+        <div class="kotak">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: deepskyblue"></nav>
+              <h1>Ambil</h1>
+            <div class=detail>
+                  <p>Detail Nasabah</p>
+            </div>
+    <table class="table table-borderless">
+        <th>
+            <tr>
+                <td><label for="exampleInputNumber">No. Rekening</label></td>
+                <td>:</td>
+                <td><input type="number" class="form-control" id="exampleInputNumber" aria-describedby="numberHelp" placeholder="masukan nomor"></td>
+            </tr>
+            <tr>
+                <td><label for="exampleInputName">Nama Nasabah</label></td>
+                <td>:</td>
+                <td><input type="text" class="form-control" id="exampleInputName" placeholder="masukan nama"></td>
+            </tr>
+            <tr>
+                <td><label for="exampleInputclass">Kelas</label></td>
+                <td>:</td>
+                <td><input type="text"class="form-control" id="exampleInputclass" placeholder="masukan kelas"></td>
+            </tr>
+            <tr>
+                <td><label for="exampleInputDate">Tanggal</label></td>
+                <td>:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>Saldo awal</label></td>
+                <td>:</td>
+                <td><input type="text" class="form-control" placeholder="masukan saldo"></td>
+            </tr>
+            <tr>
+                <td><label>Penarikan</label></td>
+                <td>:</td>
+                <td><input type="text" class="form-control" placeholder="masukan jumlah penarikan"></td>
+            </tr>
+            <tr>
+                <td><Button onclick="Simpan" value="Simpan">Simpan</Button></td>
+            </tr>
+        </th>
+    </table>
+        </div>
+</center>
+</body>
+</html>
